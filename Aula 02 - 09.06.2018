@@ -1,0 +1,54 @@
+NoteFunction
+Shield Schematic
+
+
+três chaves e uma terra
+
+
+trim pot - está na entrada analógica (grandeza analógica
+
+quatro leds na porta 13, 12, 11 e 10
+
+
+Buzzer - apito
+
+
+quatro displays de sete segmentos
+
+shift register
+
+conectores da placa
+
+o legal dessa placa é que tem output e input, então podemos interagir com o ambiente.
+
+
+
+O código declara o pino da placa 
+
+pinmode é uma função que tem dois argumentos, o primeiro é o pino e o segundo se ele será output ou input.
+qualquer pino pode ser input ou output, menos o A0
+sempre que eu usar um pino, eu preciso declará-lo e setá-lo como input ou output.
+
+
+Variável pode ser local ou global
+
+o arduino tem alguns pinos já internamente declarado
+isso estará na documentação
+
+outra função é digitalwrite que diz pro sinal naquele pino ser LOW ou HIGH, na segunda função.
+primeirpo é o pino e a segundo parâmetro é o HIGH ou LOW
+
+função digitalRead, interna do arduino, que só tem um parâmetro e retorna o valor do pino.
+
+
+
+arquivo de Rider (.h)
+
+
+
+
+
+
+Lição de casa:
+estudar teoria do trim pot
+
