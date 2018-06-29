@@ -1,3 +1,6 @@
+//Código base pesquisado na internet sem autor/autor desconhecido
+
+
 const byte LED[] = {13,12,11,10};
 #define Pot1 0
  
