@@ -3,13 +3,14 @@
  
 void setup()
 {
-Serial.begin(9600);
+//estabele a comunicacao na taxa de 9600 baud (rate or modulation rate in symbols per second or pulses per second)
+ Serial.begin(9600);
 }
  
-/* Main Program */
+//Programa principal
 void loop()
 {
- 
+//Informa no Monitor Serial qual a leitura do potenciometro 
 Serial.print("PR ");
 Serial.println(analogRead(Pot1));
 /* Wait 0.5 seconds before reading again */
